@@ -1,14 +1,17 @@
-# text-search-app
+# Text Search App
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
 
-## Recommended IDE Setup
+The Text Search App is a simple Vue 3 application that allows users to search for posts based on keywords or phrases. It uses Vue Router for navigation, Element Plus for UI components, and mock data to demonstrate search functionality. The search results are highlighted, and if the search query matches, content within posts is marked.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Search functionality**: Users can type keywords to filter posts using array filter methods.
+- **Highlight matching content**: Search results will highlight matched keywords or phrases.
+- **Vue Router**: Provides smooth navigation between routes.
+- **Element UI**: Consistent and responsive UI components.
+- **Mock data**: Array of posts used for demonstration purposes.
+- **Two-line ellipsis**: Text content can be truncated and shown with ellipsis if it exceeds two lines.
 
 ## Project Setup
 
